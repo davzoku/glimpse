@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon48.png" alt="Glimpse Logo">
+  <img src="src/img/icon-border-48.png" alt="Glimpse Logo">
 </p>
 
 # 🔑👁 Glimpse: Toggle Password with Shortcut Keys
