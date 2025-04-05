@@ -1,7 +1,7 @@
 {
   "name": "Glimpse: Toggle Password with Shortcut Keys",
-  "version": "1.0.0",
-  "manifest_version": 2,
+  "version": "2.0.0",
+  "manifest_version": 3,
   "description": "Show / hide password fields easily with shortcut keys or context menu",
   "author": "Walter Teng",
   "homepage_url": "https://github.com/davzoku",
@@ -9,9 +9,9 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "permissions": ["contextMenus", "tabs"],
+  "permissions": ["contextMenus", "activeTab"],
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
